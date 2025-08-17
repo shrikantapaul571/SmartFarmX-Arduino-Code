@@ -3,7 +3,7 @@
 
 // ---- Blynk setup (your values kept) ----
 #define BLYNK_TEMPLATE_ID "*****************"
-#define BLYNK_TEMPLATE_NAME "SmartFarmX"
+#define BLYNK_TEMPLATE_NAME "#############"
 #define BLYNK_AUTH_TOKEN "*****************-ICvulTRZNh_"
 
 #define BLYNK_PRINT Serial
@@ -123,3 +123,4 @@ void loop() {
   timer.run();
 
 }
+
