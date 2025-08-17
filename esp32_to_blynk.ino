@@ -2,9 +2,9 @@
 // Prints raw received line AND parsed fields (count/temp/hum) to Serial
 
 // ---- Blynk setup (your values kept) ----
-#define BLYNK_TEMPLATE_ID "TMPL6Qo8aZF3f"
+#define BLYNK_TEMPLATE_ID "*****************"
 #define BLYNK_TEMPLATE_NAME "SmartFarmX"
-#define BLYNK_AUTH_TOKEN "lYA4_W3KiA0g36qBxD3e-ICvulTRZNh_"
+#define BLYNK_AUTH_TOKEN "*****************-ICvulTRZNh_"
 
 #define BLYNK_PRINT Serial
 
@@ -17,8 +17,8 @@
 
 // ---- WiFi (your values kept) ----
 char auth[] = BLYNK_AUTH_TOKEN;
-char ssid[] = "67";
-char pass[] = "horimiya2.4";
+char ssid[] = "wifi";
+char pass[] = "password";
 
 BlynkTimer timer;
 bool printedHeader = false;
@@ -121,4 +121,5 @@ void setup() {
 void loop() {
   Blynk.run();
   timer.run();
+
 }
